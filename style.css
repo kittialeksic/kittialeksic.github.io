@@ -1,0 +1,58 @@
+html {
+	height: 100%;
+	width: 100%;
+}
+
+
+body {
+	background-image: url(background.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	height: 100%;
+}
+
+
+h1 {
+	font-family: 'Modern No. 20';
+	font-size: 5vw;
+	font-weight: 700;
+}
+
+h2 {
+	font-family: 'Modern No. 20';
+	text-transform: capitalize;
+	font-size: 5rem;
+	color: white;
+
+}
+img {
+	position: absolute;
+	top: -170px;
+	left: 400px;
+	max-width: 100%;
+	height: auto;
+}
+.headingtext {
+	width: 100%;
+	background-color: rgba(0, 165, 185, 0.8);
+	margin-left: 50px;
+	margin-top: 50px;
+	color: white;
+	padding: 50px 50px 50px 50px;
+}
+
+.fineprint {
+	font-size: 12px;
+}
+
+.btn-lg {
+	background-color: #043151;
+	color: white;
+	border-radius: 100px;
+	padding: 10px 20px 10px 20px;
+}
+
+.btn-lg:hover {
+	cursor: pointer;
+	background-color: #051f32;
+}
